@@ -65,6 +65,11 @@ p a:hover{
   background-image: url(images/takashiwickes-mockup-03.png);
 }
 
+.heart-container {
+  position: absolute;
+  bottom: 0px;
+}
+
 .col-md-12 {
   padding: 10px 0px;
 }
@@ -73,6 +78,26 @@ p a:hover{
   width: 50px;
   margin-right: 10px;
 }
+
+/*.heart {
+	margin: 0 0 20px 0;
+	color: white;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+	vertical-align: bottom;
+}
+.heart i {
+  color: #FF4D40;
+  text-decoration: none;
+}
+.heart .fa {
+  color: white;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
+}*/
 
 @media screen and (max-width:770px){
   .background-image{
