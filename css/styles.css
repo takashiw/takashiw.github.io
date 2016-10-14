@@ -20,7 +20,8 @@
 
 html, body {
   background-color: #87e4f9;
-
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .container {
