@@ -51,16 +51,23 @@ p {
 
 p a {
   color: white;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #bbf5ff;
 }
 
 p a:hover{
   color: #0aa7c1;
+  text-decoration: none;
+  border-bottom: 2px solid #4be1f9;
 }
+
+.circles a:hover .link-circle{
+  opacity: 0.5;
+}
+
 
 .background-image{
   position: absolute;
-  height: 700px;
+  height: 100vh;
   /*height: 100vh;*/
   right: 0;
   background-image: url(images/takashiwickes-mockup-03.png);
@@ -85,6 +92,10 @@ p a:hover{
   margin-bottom: 10px;
 }
 
+.mobile {
+  display: none;
+}
+
 /*.heart {
 	margin: 0 0 20px 0;
 	color: white;
@@ -96,14 +107,24 @@ p a:hover{
 .heart i {
   color: #FF4D40;
   text-decoration: none;
-}
+}*/
 .heart .fa {
   color: white;
   margin: 0 3px;
-  font-size: 10px;
-  animation: pound 0.35s infinite alternate;
-  -webkit-animation: pound 0.35s infinite alternate;
-}*/
+  animation: pound 0.5s infinite alternate;
+  -webkit-animation: pound 0.5s infinite alternate;
+}
+
+@-webkit-keyframes pound {
+  to {
+    transform: scale(1.2);
+  }
+}
+@keyframes pound {
+  to {
+    transform: scale(1.2);
+  }
+}
 
 @media screen and (max-width:770px){
   .background-image{
@@ -121,6 +142,14 @@ p a:hover{
 
   .heart-container {
     display: none;
+  }
+
+  .web {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
   }
 
 }
