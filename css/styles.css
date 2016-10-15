@@ -52,6 +52,12 @@ p {
 p a {
   color: white;
   border-bottom: 2px solid #bbf5ff;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+  animation-timing-function: ease-in-out;
 }
 
 p a:hover{
@@ -105,6 +111,12 @@ p a:visited:hover {
   width: 50px;
   margin-right: 10px;
   margin-bottom: 10px;
+  -o-transition:.4s;
+  -ms-transition:.4s;
+  -moz-transition:.4s;
+  -webkit-transition:.4s;
+  transition:.4s;
+  animation-timing-function: ease-in-out;
 }
 
 .mobile {
