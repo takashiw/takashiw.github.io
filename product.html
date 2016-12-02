@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="UTF-8">
+    <title>Takashi Wickes</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic,300' rel='stylesheet' type='text/css'>
+    <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/product-styles.css" type="text/css">
+
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/fav.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/fav.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav.ico/favicon-16x16.png"> -->
+  </head>
+  <body>
+    <div class="list-container">
+      <div class="sticky-header">
+        <h4>my works as a</h4>
+        <h3>product designer</h3>
+      </div>
+
+      <div class="all-works">
+        <div class="row project-row">
+          <div class="image col-md-5">
+            <img src="images/product_theia.png" alt="" />
+          </div>
+          <div class="col-md-6 text">
+            <h5>Theia</h5>
+            <p>
+              A cardboard - iOS kit for accessible, low-cost eye prescriptions
+            </p>
+          </div>
+        </div>
+        <div class="row project-row">
+          <div class="image col-md-5">
+            <img src="" alt="" />
+          </div>
+          <div class="col-md-6 text">
+            <h5>MediDock</h5>
+            <p>
+              An iOS app for tracking medication dosage with minimal user interaction
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script>
+    var wrap = $("#wrap");
+
+    wrap.on("scroll", function(e) {
+
+    if (this.scrollTop > 147) {
+      console.log("AAAAAA");
+      wrap.addClass("fix-search");
+    } else {
+      wrap.removeClass("fix-search");
+    }
+
+    });
+    </script>
+
+
+
+  </body>
