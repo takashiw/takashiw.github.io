@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="UTF-8">
+    <title>Takashi Wickes</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic,300' rel='stylesheet' type='text/css'>
+    <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/product-styles.css" type="text/css">
+    <link rel="stylesheet" href="css/details.css" type="text/css">
+  </head>
+  <body>
+    <div class="details-container">
+      <img class="no-shadow" src="images/medidock/medidock-portfolio_header-drawn.png" style="margin-bottom: 10px;" alt="" />
+      <h3>MediDock</h3>
+      <p>Allowing for simple and seamless prescription medication dosage tracking,
+        MediDock is an independently functioning iOS app with an accessory prescription dock, capable of tracking user dosage</p>
+
+      <h5>Components</h5>
+      <p class="list">
+        + iOS Application </br>
+        + Prescription Bottle Dock
+      </p>
+      <h5>Personal Learning Areas</h5>
+      <p class="list">
+        + Product Design </br>
+        + iOS Development </br>
+        + Medication Privacy Laws (HIPAA) </br>
+        + Views of Detroit Skylines
+      </p>
+
+      <img class="spacer" src="images/spacer.png" alt="" />
+      <h4>Prescription Bottle Dock</h4>
+      <p>The entire idea stemmed from a prescription bottle dock. For the design, the dock had to
+        </br>- require minimal user interaction
+        </br>- un-itrusively work in the user's current routine
+        </br>- track dosage
+      </p>
+
+      <h5>Components</h5>
+      <p class="list">
+        + Housing </br>
+        + Weight Scale or Pressure Sensor </br>
+        + Bottle-to-Sensor Stand </br>
+        + Spark Core </br>
+      </p>
+
+      <img src="images/medidock/medidock-portfolio_hardware.png" alt="">
+      <p class="image-caption">Hardware Components : Top View & Side View</p>
+
+      <h5>Tracking</h5>
+
+      The tracking of dosage was designed with two different implementations, using a weight scale and using a pressure sensor. The later was implemented due to limitations in access to hardware.
+
+      <img src="images/medidock/medidock-portfolio_pill-view.png" alt="">
+      <p class="image-caption">Dock : Side View and X-Ray View</p>
+
+      <h5>Scale Implementation</h5>
+
+      With the scale implementation, the prescription bottle's weight can be measured,
+      and using medical information and input for bottle type, we can calculate the exact number of pills left.
+
+      <h5>Pressure Sensor Implementation</h5>
+
+      With the pressure sensor implementation, dosage is tracked every time that the pressure sensor is alleviated for an extended period of time (10-40 seconds)</p>
+
+
+      <img class="spacer" src="images/spacer.png" alt="" />
+      <h4>iOS Application</h4>
+      <p>Adopting Inclusive Design, we focused on the user base that would have the most difficulty: the more elderly demographic. Therefore, we focused on:</p>
+      <p class="list">+ Accessibility</br>
+        + Legality </br>
+        + Unitrusivity</p>
+        <h5>Legality</h5>
+        <p>We had to ensure that the application would fit with the HIPAA privacy laws for prescription medication.
+          We had to ensure that features did not disclose information, and the user could have full comfort with using our application. </br></br>
+          Therefore, we had to remove features such as push notifications, doctor input, and storing in databases, as this will invades privacy by sharing dosage and prescription information.
+        </p>
+    </div>
+
+    </body>
