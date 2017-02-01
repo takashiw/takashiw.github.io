@@ -30,9 +30,9 @@
 
         <h5>Areas of Redesign</h5>
         <p class="list">
-           + Home Screen </br>
-           + Workflow </br>
-           + Adding Prescription
+           I. Home Screen </br>
+           II. Workflow </br>
+           III. Adding Prescription
         </p>
         <h5>Marvel Demo</h5>
         <p style="opacity: 1;">
@@ -47,7 +47,7 @@
            + Philly Cheese Steaks
         </p> -->
         <img class="spacer" src="images/spacer.png" alt="" />
-        <h4>Home Screen Redesign</h4>
+        <h4>I. Home Screen Redesign</h4>
         <p>
           The current homescreen for Mango Health is used as a hub for accessing different parts of the application,
           providing consolidated previews for each main section of the app.
@@ -104,7 +104,7 @@
           <img src="images/mango/home-v1.png" style="width: 31%; margin-right: 16px;"alt="" />
           <img src="images/mango/home-v2.png" style="width: 31%; margin-right: 16px;"alt="" />
           <img src="images/mango/home.png" style="width: 31%;"alt="" />
-          <p class="image-caption">First Iteration (left) ; Second (center) ; Final (right)</p>
+          <p class="image-caption" >First Iteration (left) ; Second (center) ; Final (right)</p>
 
           <h4>3. Next Doses</h4>
           <p>
@@ -121,7 +121,29 @@
 
 
           <img class="spacer" src="images/spacer.png" alt="" />
-          <h4>Add Prescription</h4>
+          <h4>II. Workflow</h4>
+          <p>
+            One of the current issues with the Mango Health app is multipoints of entry, or stacking view controllers.
+            With the Home View Controller segueing into the other views without switch the tab, the same view controller
+            becomes accessible in the Home and special view controller, muddling the map of the app, making for a more difficult-to-navigate interface.
+          </p>
+          <img src="images/mango/Old-Mango/WorkflowIssue.gif" style="width: 48%; margin-left: 50%; transform: translateX(-50%);" alt="" />
+          <p class="image-caption" style="margin-bottom:6px;">Current Workflow : Multiple Points of Entry Issue</p>
+          <p>Important aspect to note is how the user can access history from the Home and the tab bar, so switch between Home and History
+          shows the same screen, difference indicated by the disappearing back arrow at the top left.</p>
+
+          <img src="images/mango/workflows.png" alt="" />
+          <p class="image-caption">Current Workflow (left) ; Redesigned Workflow (right)</p>
+          <p>The solution is a new tab bar with custom, consistent icons.</p>
+          <h5>A Central Home</h5>
+          The Home icon is placed in the center to refer to a point of action (inspired by Instagram's placement of uploading photos).
+          <h5>Profile vs. More</h5>
+          The More icon has been replaced with the Profile icon, as much of the functionality
+          inside of the More VC can be included under a profile. In addition, the profile concept connects the user closer with the application, increasing investment.
+          </br>
+
+          <img class="spacer" src="images/spacer.png" alt="" />
+          <h4>III. Add Prescription</h4>
           <p>With the add prescription screen, the format and visual brand from the home screen is continued,
             showing how certain components translate. Here, we will explore further the visual aspects of the UI.
           </p>
