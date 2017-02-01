@@ -73,6 +73,10 @@ p {
   border-bottom: 0 !important;
 }
 
+p a:visited {
+  color: #e7fafe;
+}
+
 p a:hover {
   border-bottom: 0 !important;
 }
