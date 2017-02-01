@@ -26,15 +26,13 @@
       <img class="no-shadow" src="images/theia/theia-portfolio_header-drawn.png" style="margin-bottom: 10px;" alt="" />
 
       <h3>RE: MangoHealth Home Redesign</h3>
-      <p>To provide eye prescription exams to the third-world,
-        Theia is a low-cost, full eye examination kit.
-        All you need is a mobile phone, cardboard,
-        scissors, and a pair of eyes.</p>
 
-        <h5>Focus</h5>
+
+        <h5>Areas of Redesign</h5>
         <p class="list">
-           + Cardboard Housing Kit </br>
-           + iOS Application
+           + Home Screen </br>
+           + Workflow </br>
+           + Adding Prescription
         </p>
         <!-- <h5>Personal Learning Areas</h5>
         <p class="list">
@@ -44,44 +42,86 @@
            + Philly Cheese Steaks
         </p> -->
         <img class="spacer" src="images/spacer.png" alt="" />
-        <h4>Upcoming Dosage Button</h4>
+        <h4>Home Screen Redesign</h4>
         <p>
-          Problem: In order for a user to take a dose prior to the dosage time, the user must go from home to schedule
-          to the specific dosage cell and then press take dosage.
-          The process to take dosage from home includes 3 screens and 3 clicks.
-          <h5>Focus</h5>
-          <p class="list">
-            + Concise workflow to take medication </br>
-            + Emphasis on medication intake</br>
-            + Accessibility with larger text
-          </p>
-          <img src="images/mango/dosage-button.png" alt="" />
-          <p class="image-caption">Dosage Button</p>
-          <p>The main motivation behind creating the dosage button was to emphasis one of the most valuable functions of the application:
-            recording user's medication intake. For this function to hold value, the user must consistently input their dosage.
-            Therefore, I increased this tasks prominence, making it the only action on the home screen. This exclusivity shifts the
-            home screen from an area of access to an area of action.
+          The current homescreen for Mango Health is used as a hub for accessing different parts of the application,
+          providing consolidated previews for each main section of the app.
         </p>
-        <img class="spacer" src="images/spacer.png" alt="" />
-        <h4>Taking Medication</h4>
-        <p>With the previously stated workflow for taking dosage, minimizing screens and user actions was vital, but the action could
-          be as dismissive as simply pressing a button on the home screen. Therefore, to require some more investment and time from the user,
-          the action of taking the prescription is holding the home dosage button. And for their efforts, they are visually rewarded, which also
-          serves as indication, a transition to the next prescription, and design inconvinience.
+        <p>
+          With the redesign, the homescreen is built around the main action (inputting dosage) required by the user in order
+          for the other sections to serve actual value.
+        </p>
+          <img src="images/mango/home.png" style="width: 48%; margin-right: 19px;"alt="" />
+          <img src="images/mango//Old-Mango/old-home.png" style="width: 48%;"alt="" />
+          <p class="image-caption">Redesign (left) ; Current (right)</p>
+
+          <h5>Objective</h5>
+          <p class="list">
+            + Encourage habitual user input for greater user retention </br>
+          </p>
+          <h5>Solutions</h5>
+          <p class="list">
+            1. Prominent and quicker user input (dosage)</br>
+            2. Visual correlation between points and input</br>
+            3. List of soon upcoming doses
+          </p>
+        <h4>1. User Input</h4>
+        <p>
+          With the current homescreen's purpose as a access hub, the interaction for inputting a dosage takes 3 screens to perform.
+          The redesign minimizes this workflow to simply hold down the dosage button and your dosage is completed.
+          A confirmation of action then performs to indicate success and transition the next upcoming dosage into the circular home.</p>
           <h5>Focus</h5>
           <p class="list">
             + Visual incentive </br>
             + Communicate result of action</br>
             + Seamless transition</br>
-            + Feasability for animation in Android and iOS
+            + Accessibility with larger text
           </p>
+          <h5>Reason for holding down</h5>
+            Tapping may make the action easily dismissive. Holding down requires a bit more investment,
+            deterring user from inputting falsely.
           <img src="images/mango/Mango-Animated.gif" style="width: 48%; margin-right: 19px;"alt="" />
           <img src="images/mango/TakeADose.gif" style="width: 48%;"alt="" />
           <p class="image-caption">Redesign Dosage Action (left) ; Current Dosage Action (right)</p>
 
-          <!-- <img src="images/mango/Mango-Animated-Extra.gif" style="width: 48%; margin-right: 19px;"alt="" /> -->
+          <h5>Purpose of animation</h5>
+          Not only for visual incentive and indication, but also can mask shift through the queue (in example, from Crestor to Naproxen).
+          A concern was made for making animations which were too flashy, but the time it occupies is beneficial in requiring the user
+          to take time in taking their medication, not allowing for false inputs.
 
+          <!-- <img src="images/mango/Mango-Animated-Extra.gif" style="width: 48%; margin-right: 19px;"alt="" /> -->
+          <h4>2. Points</h4>
+          <p>There are two motivations to the redesigned points "bar":</br>
+          &nbsp;&nbsp;1. The actions which gains you points (input dosage), is now surrounded by the bar itself, visualizing a direct relationship.
+          </br>
+          &nbsp;&nbsp;2. The circular nature reflects the levels, where you move forward to start again at a new level, performing the same task.
         </p>
+          <img src="images/mango/home-v1.png" style="width: 31%; margin-right: 16px;"alt="" />
+          <img src="images/mango/home-v2.png" style="width: 31%; margin-right: 16px;"alt="" />
+          <img src="images/mango/home.png" style="width: 31%;"alt="" />
+          <p class="image-caption">First Iteration (left) ; Second (center) ; Final (right)</p>
+
+          <h4>3. Next Doses</h4>
+          <p>
+            Upcoming doses in the current MangoHealth may only be viewed in the schedule screen in an accodian calendar.
+            In the redesign, the next few immediately upcoming doses can be quickly viewed by scrolling down.
+            This reminds users to come back, and use the app again, increasing retention.
+          </p>
+          <img src="images/mango/home.png" style="width: 48%; margin-right: 19px;"alt="" />
+          <img src="images/mango/nextdoses.png" style="width: 48%;"alt="" />
+          <h5>Relationship with current dose and next dose</h5>
+          Current dose (circle) and next dose (lower rectangles) share a style as well as UIView structures.
+          Other than centering the dayLabel and overall size, the two UIViews are kept the same, allowing
+          for modular development and a clearer indication of the head and the rest of the queue.
+
+
+          <img class="spacer" src="images/spacer.png" alt="" />
+          <h4>Add Prescription</h4>
+
+
+
+
+
 
 
 
