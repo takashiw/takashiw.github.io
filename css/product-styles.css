@@ -21,6 +21,25 @@ h3 {
   transition: box-shadow 0.2s ease-in-out;
 }
 
+.more {
+  height: 60px;
+  border-radius: 14px;
+  background-color: #12D2FF;
+  margin-bottom: 40px;
+}
+
+.more img {
+  height: 60px;
+  padding-left: 335px;
+  border-radius: 0 14px 14px 0;
+  margin-top: -54px;
+}
+
+.more p {
+  padding-top: 16px;
+  margin-left: 30px;
+}
+
 .project-row:hover {
   -webkit-box-shadow: 0px 0px 0px 6px rgba(255,255,255,1);
   -moz-box-shadow: 0px 0px 0px 6px rgba(255,255,255,1);
@@ -52,10 +71,13 @@ h3 {
   padding-top: 30px;
   padding-left: 30px;
   padding-bottom: 30px;
-  background-color: #78def8;
+  background-color: #12D2FF;
   border-radius: 0 0 14px 14px;
   z-index: 1;
   transition: box-shadow 0.2s ease-in-out;
+  /*-webkit-box-shadow: 0px 6px 0px 0px rgba(135,228,249,0.3);
+  -moz-box-shadow: 0px 6px 0px 0px rgba(135,228,249,0.3);
+  box-shadow: 0px 6px 0px 0px rgba(135,228,249,0.3);*/
 }
 
 h5 {
@@ -65,13 +87,13 @@ h5 {
   border-bottom: 0 !important;
 }
 
-p {
+/*p {
   color: white;
   font-size: 16px;
   line-height: normal;
   opacity: 0.85;
   border-bottom: 0 !important;
-}
+}*/
 
 p a:visited {
   color: #e7fafe;
