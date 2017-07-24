@@ -146,6 +146,15 @@ p a:visited:hover {
   border-bottom: 2px solid #bbf5ff;
 }
 
+.acts a{
+  color: white;
+}
+
+.acts a:hover{
+  color: #ccf8ff;
+  text-decoration: none;
+}
+
 .circles a:hover .link-circle{
   opacity: 0.5;
 }
@@ -155,7 +164,33 @@ p a:visited:hover {
 }
 
 .projects {
-  padding: 20px 100px;
+  padding: 20px 0;
+}
+
+.project-row {
+  width: 680px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 160px;
+}
+
+.more {
+  height: 60px;
+  border-radius: 14px;
+  background-color: #12D2FF;
+  margin-bottom: 40px;
+}
+
+.more img {
+  height: 60px;
+  padding-left: 335px;
+  border-radius: 0 14px 14px 0;
+  margin-top: -54px;
+}
+
+.more p {
+  padding-top: 16px;
+  margin-left: 30px;
 }
 
 .heart a {
@@ -191,18 +226,6 @@ p a:visited:hover {
   display: none;
 }
 
-/*.heart {
-	margin: 0 0 20px 0;
-	color: white;
-	font-size: 12px;
-	display: block;
-	text-align: center;
-	vertical-align: bottom;
-}
-.heart i {
-  color: #FF4D40;
-  text-decoration: none;
-}*/
 .heart .fa {
   color: white;
   margin: 0 3px;
