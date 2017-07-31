@@ -243,31 +243,3 @@ p a:visited:hover {
     transform: scale(1.2);
   }
 }
-
-@media screen and (max-width:770px){
-  .background-image{
-    right: -200px;
-    /*height: 1200px;
-    right: -400px;
-    top: -100px;*/
-  }
-
-  .container{
-    width: 340px;
-    transform: translateX(-50%);
-    top: 40%;
-  }
-
-  .heart-container {
-    display: none;
-  }
-
-  .web {
-    display: none;
-  }
-
-  .mobile {
-    display: block;
-  }
-
-}
