@@ -4,6 +4,7 @@ html {
 
 .hero-video {
   padding: 20px;
+  border-radius: 14px;
 }
 
 .details-container {
