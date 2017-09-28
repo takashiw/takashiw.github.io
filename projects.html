@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+  <head>
+    <meta charset="UTF-8">
+    <title>Takashi Wickes</title>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link data-require="bootstrap@*" data-semver="3.3.5" rel="stylesheet" href="css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300italic,300' rel='stylesheet' type='text/css'>
+    <!-- <link rel='stylesheet' href='//fonts.googleapis.com/css?family=font1|font2|etc' type='text/css'> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/product-styles.css" type="text/css">
+
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="images/fav.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/fav.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/fav.ico/favicon-16x16.png"> -->
+  </head>
+  <body style="overflow-y: visible;
+  height: 100vh;">
+    <div class="list-container">
+      <a href="index.html">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </a>
+      <div class="sticky-header">
+        <h4>my works as a</h4>
+        <h3>developer / designer</h3>
+      </div>
+
+      <div class="all-works">
+
+        <a href="theia.html">
+          <div class="row project-row">
+            <div class="image thumbnail">
+              <img src="images/myopic-vr.jpg-large" style="margin-top: 40px;" alt="" />
+            </div>
+            <div class="text">
+              <h5>Glasses for Kids VR</h5>
+              <p>
+                VR Simulation highlighting how eyeglasses affect elementary education
+              </p>
+              <p class="tags">
+                Oct 2017 / VR For Social Good / Unity, Google Cardboard, Blender
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="theia.html">
+          <div class="row project-row">
+            <div class="image thumbnail">
+              <img src="images/swipemoji.gif" style="margin-top: 40px;" alt="" />
+            </div>
+            <div class="text">
+              <h5>Swipemoji</h5>
+              <p>
+                iOS Keyboard converting gestures into emojis
+              </p>
+              <p class="tags">
+                Spring 2017 / NUI, Interaction Design, iOS Dev
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="theia.html">
+          <div class="row project-row">
+            <div class="image thumbnail">
+              <img src="images/theia/cardboard-formed.png" style="margin-top: 40px;" alt="" />
+            </div>
+            <div class="text">
+              <h5>Theia / Franklin</h5>
+              <p>
+                A cardboard - iOS kit for accessible, low-cost eye exams
+              </p>
+              <p class="tags">
+                Winter 2016 + Spring 2017 / HCI, Interaction Design, iOS Dev
+              </p>
+            </div>
+          </div>
+        </a>
+
+        <a href="theia.html">
+          <div class="row project-row">
+            <div class="image thumbnail">
+              <img src="images/poyo_animation_spotlight.gif" style="margin-top: 20px;" alt="" />
+            </div>
+            <div class="text">
+              <h5>Poyo</h5>
+              <p>
+                A semianonymous polling app (first time app!)
+              </p>
+              <p class="tags">
+                Spring 2016 / CodePath University / iOS Dev, Mobile Design
+              </p>
+            </div>
+          </div>
+        </a>
+
+
+      </div>
+
+    </div>
+    <script>
+    var wrap = $("#wrap");
+
+    wrap.on("scroll", function(e) {
+
+    if (this.scrollTop > 147) {
+      console.log("AAAAAA");
+      wrap.addClass("fix-search");
+    } else {
+      wrap.removeClass("fix-search");
+    }
+
+    });
+    </script>
+
+
+
+  </body>
