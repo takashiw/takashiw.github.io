@@ -44,8 +44,10 @@ h3 {
   border: 0;
 }
 
-.thumbanil img{
+.thumbnail img{
   object-fit: contain;
+  transform: translateY(-25%);
+  width: 100%;
 }
 
 .text {
@@ -68,13 +70,15 @@ h5 {
   border-bottom: 0 !important;
 }
 
-/*p {
+p {
   color: white;
   font-size: 16px;
-  line-height: normal;
-  opacity: 0.85;
-  border-bottom: 0 !important;
-}*/
+  line-height: 22px;
+}
+
+.tags {
+  opacity: 0.5;
+}
 
 p a:visited {
   color: #e7fafe;
@@ -90,6 +94,5 @@ a:focus, a:hover {
 }
 
 .all-works {
-  height: 500px;
-  /*overflow-y: scroll;*/
+  margin-bottom: 200px;
 }
