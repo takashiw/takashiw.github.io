@@ -1,0 +1,140 @@
+.hello {
+  width: 260px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+}
+
+@keyframes hello {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(360px);
+  }
+
+  50% {
+    transform: translateY(360px);
+  }
+
+  100% {
+
+  }
+}
+
+@keyframes helloImg {
+  0% {
+    opacity: 0;
+    transform: translateY(500px);
+  }
+
+  20% {
+    opacity: 1;
+    transform: translateY(360px);
+  }
+
+  28% {
+    transform: translateY(360px);
+  }
+
+  100% {
+
+  }
+}
+
+@keyframes helloText {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+}
+
+.hello h2 {
+  position: absolute;
+  width: 100px;
+  line-height: 150%;
+  margin: 0;
+}
+
+.hello img {
+  min-height: 260px;
+  width: 100%;
+  -webkit-box-shadow: -6px 39px 35px -34px rgba(0,0,0,0.34);
+  -moz-box-shadow: -6px 39px 35px -34px rgba(0,0,0,0.34);
+  box-shadow: -6px 39px 35px -34px rgba(0,0,0,0.34);
+  margin-bottom: 40px;
+}
+
+.hello p {
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.hello .name {
+  color: #51C0FF;
+}
+
+@keyframes work {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+}
+
+.work {
+}
+
+.links h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.links p {
+  float: left;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  border-bottom: 2px solid #51C0FF;
+  display: inline-block;
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  transition: border-bottom 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.links a {
+  color: black;
+  opacity: 0.75;
+  transform: translateY(0px);
+  transition: transform 0.1s ease-in-out;
+}
+
+.links a:visited {
+  color: black;
+  opacity: 0.5;
+}
+
+.links a:visited p {
+  border-bottom: 4px solid lightgray;
+}
+
+.links p:hover {
+  border-bottom: 4px solid #51C0FF;
+  margin-bottom: 4px;
+  opacity: 1;
+}
+
+.links p:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 750px) {
+  .hello {
+    margin-top: 40px;
+  }
+}

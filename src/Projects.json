@@ -1,0 +1,126 @@
+[
+  {
+    "title" : "Launching Swipemoji",
+    "subtitle" : "Stickermule Playoff Runner Up",
+    "color" : "#2A90FF",
+    "thumbnail" : "swipemoji.png",
+    "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Animating a Tomato",
+    "subtitle" : "Stickermule Dribbble Playoff Runner Up",
+    "color" : "#FF3C37",
+    "thumbnail" : "tomato-freeze.png",
+    "url" : "https://dribbble.com/shots/3861432-Can-you-ketchup",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Drawing my Face in CSS",
+    "subtitle" : "A challenge & unlikely Medium article",
+    "color" : "#FF715A",
+    "thumbnail" : "CSSFace.png",
+    "url" : "https://blog.prototypr.io/how-to-draw-your-face-in-css-89676e71236a",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Creating Tuna Pasta Podcast",
+    "subtitle" : "Sharing the stories of Americans while on a roadtrip to from FL to CA",
+    "color" : "#00CED7",
+    "thumbnail" : "TunaPasta@2x.png",
+    "url" : "https://medium.com/tuna-pasta/hello-from-tuna-pasta-cace1e6e220c",
+    "columns" : 2, "rows" : 1
+  },
+  {
+    "title" : "Building Empathy for Myopia",
+    "subtitle" : "A VR Experience to show why elementary schoolers need more glasses!",
+    "color" : "#3A935A",
+    "thumbnail" : "VRGlasses.png",
+    "url" : "/vr-myopic",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Hacking Together with Theia",
+    "subtitle" : "A new mobile eye exam built in 36 hour",
+    "color" : "#FEC072",
+    "thumbnail" : "Theia.png",
+    "url" : "/theia",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Prototyping with IDEO CoLab",
+    "subtitle" : "Winter & Summer Fellowship Class of 2017",
+    "color" : "#222222",
+    "thumbnail" : "Bernard.png",
+    "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Redesigning Mango Health",
+    "subtitle" : "UX / UI Case Study",
+    "color" : "#86E3F2",
+    "thumbnail" : "MangoDesign.png",
+    "url" : "/mango",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Hacking Together with Medidock",
+    "subtitle" : "Mobile prescription tracker built in 36 hour",
+    "color" : "#88BEFF",
+    "thumbnail" : "Medidock.png",
+    "url" : "/medidock",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Building up University of Florida's Hacker Culture",
+    "subtitle" : "Leading organization of SwampHacks 2016 & 2017—from Web Design to Red Bull Runs",
+    "color" : "#FF5B55",
+    "thumbnail" : "Swamphacks.png",
+    "url" : "http://2017.swamphacks.com/",
+    "columns" : 2, "rows" : 1
+  },
+  {
+    "title" : "Making a Conference for Students",
+    "subtitle" : "With some friends, throwing a Florida tech conference that would go international",
+    "color" : "#BC6E29",
+    "thumbnail" : "Floatie.png",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Starting Florida Hackers",
+    "subtitle" : "A community to grow student tech in our state",
+    "color" : "#EE509C",
+    "thumbnail" : "FloridaHackers.png",
+    "url" : "https://medium.com/florida-hackers/the-start-e8056d2780f5",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Directing the Short Film: Trumpeteer",
+    "subtitle" : "Jury Award Winner for UF Campus Movie Fest 2016",
+    "color" : "#FF9108",
+    "thumbnail" : "Trumpeteer.png",
+    "url" : "https://vimeo.com/162469928",
+    "columns" : 2, "rows" : 1
+  },
+  {
+    "title" : "Drawing for Microsoft",
+    "subtitle" : "Illustrating office mascots for 13 offices",
+    "color" : "green",
+    "thumbnail" : "Microsoft.png",
+    "url" : "https://dribbble.com/shots/3841922-Ninjacats-of-the-World",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Learning iOS with CodePath",
+    "subtitle" : "Teaching and Learning iOS to UF students",
+    "color" : "#FEBA49",
+    "thumbnail" : "Popy.png",
+    "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Starting at the Florida Alligator",
+    "subtitle" : "My first work as an illustrator",
+    "color" : "#128b47",
+    "thumbnail" : "Alligator.png",
+    "url" : "https://www.behance.net/gallery/31506487/Alligator-Newspaper-Ads",
+    "columns" : 1, "rows" : 1
+  }
+]

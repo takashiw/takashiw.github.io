@@ -1,0 +1,12 @@
+main {
+  margin: 100px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 10px 10px;
+  text-align: left;
+  color: #383838;
+}
