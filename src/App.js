@@ -6,6 +6,11 @@ import Theia from './components/ProjectDetailPage/project-Theia'
 import DetailsMyopic from './components/ProjectDetailPage/project-Myopic'
 import ProjectMedidock from './components/ProjectDetailPage/project-Medidock'
 import ProjectMango from './components/ProjectDetailPage/project-Mango'
+import ProjectCoLab from './components/ProjectDetailPage/project-CoLab'
+import ProjectSwipemoji from './components/ProjectDetailPage/project-Swipemoji'
+import ProjectFloatie from './components/ProjectDetailPage/project-Floatie'
+import ProjectCodePath from './components/ProjectDetailPage/project-CodePath'
+
 
 import './index.css'
 
@@ -38,6 +43,11 @@ class App extends Component {
           <Route path='/vr-myopic' component={DetailsMyopic}/>
           <Route path='/medidock' component={ProjectMedidock}/>
           <Route path='/mango' component={ProjectMango}/>
+          <Route path='/colab' component={ProjectCoLab}/>
+          <Route path='/swipemoji' component={ProjectSwipemoji}/>
+          <Route path='/codepath' component={ProjectCodePath}/>
+          <Route path='/floatie' component={ProjectFloatie}/>
+
         </Switch>
       </div>
     )

@@ -4,6 +4,7 @@
     "subtitle" : "Stickermule Playoff Runner Up",
     "color" : "#2A90FF",
     "thumbnail" : "swipemoji.png",
+    "url" : "/swipemoji",
     "columns" : 1, "rows" : 2
   },
   {
@@ -51,6 +52,7 @@
     "subtitle" : "Winter & Summer Fellowship Class of 2017",
     "color" : "#222222",
     "thumbnail" : "Bernard.png",
+    "url" : "/colab",
     "columns" : 1, "rows" : 2
   },
   {
@@ -82,6 +84,7 @@
     "subtitle" : "With some friends, throwing a Florida tech conference that would go international",
     "color" : "#BC6E29",
     "thumbnail" : "Floatie.png",
+    "url" : "/floatie",
     "columns" : 1, "rows" : 1
   },
   {
@@ -113,6 +116,7 @@
     "subtitle" : "Teaching and Learning iOS to UF students",
     "color" : "#FEBA49",
     "thumbnail" : "Popy.png",
+    "url" : "/codepath",
     "columns" : 1, "rows" : 2
   },
   {
