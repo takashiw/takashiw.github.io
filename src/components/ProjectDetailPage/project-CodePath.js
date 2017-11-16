@@ -4,7 +4,7 @@ import './style.css'
 import {Link} from 'react-router-dom'
 import 'font-awesome/css/font-awesome.min.css';
 
-class DetailsCodePath extends Component {
+class DetailsCode extends Component {
   componentDidMount(){
     window.scrollTo(0, 0);
   }
@@ -12,56 +12,23 @@ class DetailsCodePath extends Component {
   render(){
     return(
       <div>
-        <div className="header" style={{backgroundColor: "rgb(58, 147, 90)"}}>
+        <div className="header" style={{backgroundColor: "rgb(254, 186, 73)"}}>
           <Link to='/'>
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
           </Link>
-          <h3>Sep 2017 • VR For Social Good @UF</h3>
-          <h1>One Week to Learn VR and Build Empathy for Myopia</h1>
+          <h3>Jan 2016 • CodePath University</h3>
+          <h1>Teaching and Learning iOS at the Same Time</h1>
         </div>
         <div className="main">
-          <p className="summary">A 2 minute Google Cardboard experience create to introduce the user to the problems of untreated vision problem in elementary school students, and impact that prescription glasses can have in the classroom.</p>
-          <div className="lists">
-            <h2>Components</h2>
-            <ul>
-              <li>Mattel ViewMaster VR</li>
-              <li>Unity App</li>
-            </ul>
-            <h2>Personal Learning Areas</h2>
-            <ul>
-              <li>How To Unity (0 to 1)</li>
-              <li>3D Modeling in Blender</li>
-              <li>Game Development</li>
-              <li>Iterative Design in Marston Library</li>
-              <li>How to Record Spelling Words in Public</li>
-            </ul>
-          </div>
+          <p className="summary">In our fourth semester in college, CodePath started their university program, with UF included in their pilot schools. The course was in iOS development. My roommate Nikhil and I were interested, but we were late to enroll—as students. So with no knowledge of iOS development, we signed up as the only two student teachers and went on to lead a course of 24 students in how to develop in iOS.</p>
 
-          <iframe src="https://www.youtube.com/embed/0PD2MFxU9hE" frameborder="0" allowfullscreen></iframe>
-          <h2>I. The Mission</h2>
-          <p>This project was created for Assignment 1 of the VR For Social Good class I am taking Senior Fall Semester at UF. The assignment is to "educate the user on a message to address a social good topic".</p>
-          <p>The social good topic (cause vision democratization is always awesome to develop for) I chose was providing kids in elementary school with glasses. The non-profit I based this project on is Vision to Learn, a LA-based non-profit who provide "free eye exams and free eyeglasses to students in low income neighborhoods".</p>
+          <h2>The Story</h2>
 
-          <h2>II. The Simulation</h2>
-          <p>The VR experience takes you through the following</p>
-          <ol>
-            <li>A presentation of the problem space (scarcity of eyeglasses for kids)</li>
-            <li>Simulation of first grade spelling lesson where you look at the board and spell along </li>
-            <li>Same Simulation, but this time with 20/200 vision </li>
-            <li>Your attention results and other facts</li>
-          </ol>
-          <img src={process.env.PUBLIC_URL + '/images/projects/myopia/package.png'} />
-          <p className="subtitle">1.5 million first graders need glasses, but only 5% get them</p>
+          <p>With UF being a pilot school, we worked directly with the creators of the CodePath University program, who were based in San Francisco. This included hours of late night Google Hangout calls where they would walk us through step-by-step the week’s lessons, projects, and possible questions that could come up. Then, on the following Tuesday and Thursday nights, we would teach the exact same content to the class that comprised of UF students from first year business students to fifth year computer science.</p>
+          <p>This process of learn the week before and teach the next continued for the entire 12 week course. And by the end of it, our class had the knowledge of how to develop for iOS, had completed and demoed 6 full functional apps in small team groups, and the UF CodePath Class of 2016 received the highest approval rating out of the 26 pilot schools.</p>
+          <img src={process.env.PUBLIC_URL + '/images/poyo.gif'} />
+          <p className="subtitle">Logo animation for our first full feature iOS app</p>
 
-          <img src={process.env.PUBLIC_URL + '/images/projects/myopia/classroomScreen.png'} />
-          <p className="subtitle">Classroom setting with red raycast to track users attention span</p>
-
-          <img src={process.env.PUBLIC_URL + '/images/projects/myopia/resultsScreen.png'} />
-          <p className="subtitle">Results lobby with rotating trophies with detailed benefits</p>
-
-          <h2>III. Models</h2>
-          <p>All of the models were created by myself in Blender!</p>
-          <p>No outside models were used</p>
 
         </div>
       </div>
@@ -69,4 +36,4 @@ class DetailsCodePath extends Component {
   }
 }
 
-export default DetailsCodePath
+export default DetailsCode
