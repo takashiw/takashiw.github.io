@@ -65,7 +65,7 @@ class Home extends Component {
           <a href="http://be.net/takashiw"><p>Behance</p></a>
           <a href="https://twitter.com/takashiwickes"><p>Twitter</p></a>
           <a href="http://www.linkedin.com/in/takashiw"><p>Linkedin</p></a>
-          <a href="https://dribbble.com/takashiw"><p>Resume</p></a>
+          <a href="https://takashiwickes.com/resume.pdf"><p>Resume</p></a>
         </div>
       </main>
     )}
