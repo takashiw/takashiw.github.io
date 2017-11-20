@@ -18,7 +18,7 @@ class ProjectMedidock extends Component {
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
           </Link>
           <h3>Oct 2016 • Hackathon Build</h3>
-          <h1>Prototyping Accessible, New Eye Exams</h1>
+          <h1>Prototyping a Hands-Off Prescription Tracker designed for Inclusivity</h1>
         </div>
         <div className="main">
           <p className="summary">Allowing for simple and seamless prescription medication dosage tracking, MediDock is an independently functioning iOS app with an accessory prescription dock, capable of tracking user dosage</p>
