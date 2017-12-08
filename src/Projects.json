@@ -41,7 +41,7 @@
   },
   {
     "title" : "Hacking Together with Theia",
-    "subtitle" : "A new mobile eye exam built in 36 hour",
+    "subtitle" : "A new mobile eye exam built in 36 hours",
     "color" : "#FEC072",
     "thumbnail" : "Theia.png",
     "url" : "/theia",
@@ -65,7 +65,7 @@
   },
   {
     "title" : "Hacking Together with Medidock",
-    "subtitle" : "Mobile prescription tracker built in 36 hour",
+    "subtitle" : "Mobile prescription tracker built in 36 hours",
     "color" : "#88BEFF",
     "thumbnail" : "Medidock.png",
     "url" : "/medidock",
