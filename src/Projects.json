@@ -1,15 +1,31 @@
 [
   {
-    "title" : "Launching Swipemoji",
-    "subtitle" : "Coming to the App Store Dec 2017",
-    "color" : "#2A90FF",
+    "title" : "Animating a Pizza & Winning an Oven",
+    "subtitle" : "Sticker Mule Dribbble Playoff Grand Prize",
+    "color" : "#348E43",
+    "thumbnail" : "Pizza.png",
+    "url" : "/pizza",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Developing Accessible Field Trips with Google Cardboard",
+    "subtitle" : "VR for Social Good Term Project",
+    "color" : "#2EAAF3",
+    "thumbnail" : "GreenCardboard.png",
+    "url" : "https://rikardoeiris.wixsite.com/vrsgglobalsites",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Using Gesture Recognition for a Better Emoji Keyboard",
+    "subtitle" : "Swipemoji Coming to the App Store 2018",
+    "color" : "#FE4A6B",
     "thumbnail" : "swipemoji.png",
     "url" : "/swipemoji",
     "columns" : 1, "rows" : 2
   },
   {
     "title" : "Animating a Tomato",
-    "subtitle" : "Stickermule Dribbble Playoff Runner Up",
+    "subtitle" : "Sticker Mule Dribbble Playoff Runner Up",
     "color" : "#FF3C37",
     "thumbnail" : "tomato-freeze.png",
     "url" : "https://dribbble.com/shots/3861432-Can-you-ketchup",
@@ -40,20 +56,20 @@
     "columns" : 1, "rows" : 1
   },
   {
-    "title" : "Hacking Together with Theia",
-    "subtitle" : "A new mobile eye exam built in 36 hours",
-    "color" : "#FEC072",
-    "thumbnail" : "Theia.png",
-    "url" : "/theia",
-    "columns" : 1, "rows" : 1
-  },
-  {
     "title" : "Prototyping with IDEO CoLab",
     "subtitle" : "Winter & Summer Fellowship Class of 2017",
     "color" : "#222222",
     "thumbnail" : "Bernard.png",
     "url" : "/colab",
     "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Hacking Together with Theia",
+    "subtitle" : "A new mobile eye exam built in 36 hours",
+    "color" : "#FEC072",
+    "thumbnail" : "Theia.png",
+    "url" : "/theia",
+    "columns" : 1, "rows" : 1
   },
   {
     "title" : "Redesigning Mango Health",

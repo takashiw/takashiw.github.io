@@ -52,7 +52,7 @@ class Home extends Component {
           <h2 style={animatedStyle.header}>hey there, I&apos;m <span className="name">Takashi Wickes</span></h2>
           <img style={animatedStyle.image} src={me} />
           <p style={animatedStyle.text}>I am a developer and illustrator studying Computer Science and Art History at the University of Florida</p>
-          <p style={animatedStyle.text}>I&apos;ve had the chance to work with IDEO CoLab, Microsoft, General Electric, and The Florida Alligator.</p>
+          <p style={animatedStyle.text}>I&apos;ve had the chance to work with <a href="/#/colab">IDEO CoLab</a>, <a href="https://dribbble.com/shots/3841922-Ninjacats-of-the-World" target="_blank">Microsoft</a>, General Electric, and The Florida Alligator. <br/>I&apos;ll be joing the IDEO Cambridge team the summer of 2018 as an Interaction Design & Developer Intern.</p>
         </div>
         <div className="work" style={animatedStyle.work}>
           <h2>and here is some of what I have built</h2>

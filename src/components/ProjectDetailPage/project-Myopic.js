@@ -60,8 +60,20 @@ class DetailsMyopic extends Component {
           <p className="subtitle">Results lobby with rotating trophies with detailed benefits</p>
 
           <h2>III. Models</h2>
-          <p>All of the models were created by myself in Blender!</p>
-          <p>No outside models were used</p>
+          <p>With one week to develop, I needed symbols models that could still convey messages and aid wiith immersion. But I had not done 3D modeling since my 
+            time in high school working from my bootlegged version of Cinema 4D. So, I capitalized on a low poly style. 
+            <br/>Not only was it perfect for a crunch in development time, but, with a bright color palette, the style was playful, 
+            paralleling with the subject matter of elementary schoolers. All of the models were created by myself in Blender!</p>
+          <video width="50%" preload="true" autoplay="true" loop>
+            <source src={process.env.PUBLIC_URL + '/images/projects/myopia/School-Desk.mp4'} type="video/mp4" />
+          </video>
+          <video width="50%" preload="true" autoplay="true" loop>
+            <source src={process.env.PUBLIC_URL + '/images/projects/myopia/Glasses.mp4'} type="video/mp4" />
+          </video>
+          <p className="subtitle">School Desk and Glasses Models</p>
+
+          {/* <h2>IV. Sketches</h2> */}
+          {/* <img src={process.env.PUBLIC_URL + '/images/projects/myopia/sketches.jpg'} /> */}
 
         </div>
       </div>

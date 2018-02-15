@@ -66,10 +66,22 @@ h1 {
   /*background-color:#f2f2f2;*/
 }
 
+.main video {
+  margin-top: 30px;
+  width: 50%;
+}
+
 .main .halfImage {
   width: calc(50% - 24px);
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.main .centered {
+  width: calc(50% - 24px);
+  margin-left: calc(10px + 50%);
+  margin-right: 10px;
+  transform: translateX(-50%);
 }
 
 .appScreens img {
@@ -140,6 +152,18 @@ hr {
   opacity: 0.2;
 }
 
+p a {
+  color: #51c0ff;
+  /* font-weight: bold; */
+  border-bottom: 0px solid #51c0ff;
+  transition: border-bottom 0.1s ease;
+}
+
+p a:hover {
+  border-bottom: 2px solid #51c0ff;
+  opacity: 0.8;
+}
+
 @media (max-width: 600px) {
   .header, .main {
     padding: 40px 30px;
@@ -151,6 +175,10 @@ hr {
 
   .hero {
     display: none;
+  }
+
+  .main video {
+    width: 100%;
   }
 
 }

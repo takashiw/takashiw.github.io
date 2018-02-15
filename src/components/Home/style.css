@@ -4,6 +4,7 @@
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 40px;
+  margin-top: -40px;
 }
 
 @keyframes hello {
@@ -51,6 +52,10 @@
     opacity: 0;
     transform: translateY(-30px);
   }
+}
+
+.hello a {
+  color: inherit;
 }
 
 .hello h2 {
