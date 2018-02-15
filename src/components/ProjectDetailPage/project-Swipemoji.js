@@ -45,9 +45,6 @@ class DetailsSwipemoji extends Component {
           <p>You can also check out the code <a href="https://github.com/Swipemoji" target="_blank">here on GitHub.</a></p>
 
           <h2>Preview of what's to Come</h2>
-
-          <p className="subtitle">Companion App - Sketch Mockup 💎</p>
-
           <img src={process.env.PUBLIC_URL + '/images/swipemoji/MainPage_Sketch.png'} />
           <p className="subtitle">Companion App - Sketch Mockup 💎</p>
 

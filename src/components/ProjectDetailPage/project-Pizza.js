@@ -27,7 +27,7 @@ class ProjectPizza extends Component {
           <p className="subtitle">"Look at this Tough Little Pizza Box"</p>
 
           <p>The morning of February 14, 2018, Sticker Mule uploaded this incredible video. Watch to see Vinny pull my pizza fresh out the oven!</p>
-          <iframe src="https://www.youtube.com/embed/S-Jpu4yJtOA?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://www.youtube.com/embed/S-Jpu4yJtOA?rel=0" frameborder="0" allowfullscreen></iframe>
 
           <h3>Sketches & Iterations</h3>
           <img className="centered" src={process.env.PUBLIC_URL + '/images/projects/pizza/sketch.JPG'} />

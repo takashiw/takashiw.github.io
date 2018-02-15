@@ -11,6 +11,7 @@ import ProjectSwipemoji from './components/ProjectDetailPage/project-Swipemoji'
 import ProjectFloatie from './components/ProjectDetailPage/project-Floatie'
 import ProjectCodePath from './components/ProjectDetailPage/project-CodePath'
 import ProjectPizza from './components/ProjectDetailPage/project-Pizza'
+import ProjectTunaPasta from './components/ProjectDetailPage/project-TunaPasta'
 
 import './index.css'
 
@@ -48,6 +49,7 @@ class App extends Component {
           <Route path='/codepath' component={ProjectCodePath}/>
           <Route path='/floatie' component={ProjectFloatie}/>
           <Route path='/pizza' component={ProjectPizza}/>
+          <Route path='/tunapasta' component={ProjectTunaPasta}/>
         </Switch>
       </div>
     )

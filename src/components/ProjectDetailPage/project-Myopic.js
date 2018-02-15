@@ -64,10 +64,10 @@ class DetailsMyopic extends Component {
             time in high school working from my bootlegged version of Cinema 4D. So, I capitalized on a low poly style. 
             <br/>Not only was it perfect for a crunch in development time, but, with a bright color palette, the style was playful, 
             paralleling with the subject matter of elementary schoolers. All of the models were created by myself in Blender!</p>
-          <video width="50%" preload="true" autoplay="true" loop>
+          <video className="model" preload="true" autoplay="true" loop>
             <source src={process.env.PUBLIC_URL + '/images/projects/myopia/School-Desk.mp4'} type="video/mp4" />
           </video>
-          <video width="50%" preload="true" autoplay="true" loop>
+          <video className="model" preload="true" autoplay="true" loop>
             <source src={process.env.PUBLIC_URL + '/images/projects/myopia/Glasses.mp4'} type="video/mp4" />
           </video>
           <p className="subtitle">School Desk and Glasses Models</p>
