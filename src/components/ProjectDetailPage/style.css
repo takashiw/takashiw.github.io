@@ -35,6 +35,10 @@ body {
   margin: auto;
 }
 
+.prototype {
+  padding: 30px 0 30px 0;
+}
+
 .fa {
   color: white;
   margin-bottom: 40px;
@@ -54,16 +58,8 @@ h1 {
   animation: header 0.4s 0.3s backwards ease-in-out;
 }
 
-.lists {
-  display: inline-block;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  width: 50%;
-}
-
 .main img {
   margin-top: 30px;
-  /*background-color:#f2f2f2;*/
 }
 
 .main video {
@@ -101,6 +97,7 @@ h1 {
   display: inline-block;
   width: 50% !important;
   margin: 0;
+  margin-top: 0px !important;
 }
 
 iframe {
@@ -156,12 +153,22 @@ iframe {
   margin: 30px 0 4px 0;
 }
 
+.lists {
+  display: inline-block;
+  margin-bottom: 0px;
+  width: 50%;
+}
+
 .lists h2, .main h3 {
   font-size: 24px;
   color: #383838;
   font-weight: bold;
   opacity: 1;
-  margin-top: 0;
+  margin-top: 30px;
+}
+
+.main h3 {
+  margin-top: 30px;
 }
 
 ul {
@@ -215,6 +222,10 @@ li a:hover, p a:hover {
   opacity: 0.8;
 }
 
+.scrollLink {
+  cursor: pointer;
+}
+
 @media (max-width: 600px) {
   .header, .main {
     padding: 40px 30px;
@@ -229,7 +240,13 @@ li a:hover, p a:hover {
   }
 
   .main video {
+    width: 100% !important;
+  }
+
+  .main .centered {
     width: 100%;
+    margin-left: 10px;
+    transform: translateX(0);
   }
 
   iframe {

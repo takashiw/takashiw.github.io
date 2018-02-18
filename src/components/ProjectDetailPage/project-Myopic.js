@@ -37,7 +37,7 @@ class DetailsMyopic extends Component {
             </ul>
           </div>
 
-          <iframe src="https://www.youtube.com/embed/0PD2MFxU9hE" frameborder="0" allowfullscreen></iframe>
+          <iframe className="youtube" src="https://www.youtube.com/embed/0PD2MFxU9hE" frameborder="0" allowfullscreen></iframe>
           <h2>I. The Mission</h2>
           <p>This project was created for Assignment 1 of the VR For Social Good class I am taking Senior Fall Semester at UF. The assignment is to "educate the user on a message to address a social good topic".</p>
           <p>The social good topic (cause vision democratization is always awesome to develop for) I chose was providing kids in elementary school with glasses. The non-profit I based this project on is Vision to Learn, a LA-based non-profit who provide "free eye exams and free eyeglasses to students in low income neighborhoods".</p>
@@ -69,6 +69,9 @@ class DetailsMyopic extends Component {
           </video>
           <video className="model" preload="true" autoplay="true" loop>
             <source src={process.env.PUBLIC_URL + '/images/projects/myopia/Glasses.mp4'} type="video/mp4" />
+          </video>
+          <video className="centered" preload="true" autoplay="true" loop>
+            <source src={process.env.PUBLIC_URL + '/images/projects/myopia/classroom.mp4'} type="video/mp4" />
           </video>
           <p className="subtitle">School Desk and Glasses Models</p>
 
