@@ -32,13 +32,13 @@ class DetailsCoLab extends Component {
           <h1>Prototyping with IDEO CoLab</h1>
         </div>
         <div className="main">
-          <p className="summary">For two weeks in January and nine weeks in the summer of 2017, I took part in IDEO CoLab’s fellow in Cambridge and San Francisco. Alongside partner companies, we explored applications of emerging technologies like IoT and AI in the many fields from energy price markets to home security to transportation.</p>
+          <p className="summary">For two weeks in January and nine weeks in the summer of 2017, I took part in IDEO CoLab’s fellow in Cambridge and San Francisco respectively. Alongside partner companies, we explored applications of emerging technologies like IoT and AI in many fields from energy price markets to home security to transportation.</p>
 
           <h2>The Experience</h2>
-          <p>Working in extreme rapid sprints spanning from 2 days to 7 weeks, I worked in interdisciplinary teams of 3-4. My teammates spanned from industrial and graphic designers, undergraduate students, MBAs, to even a rap producer. And my role in each project was just as multifaceted. I built brands and story telling animations as a graphic designer, prototyped in iOS and ReactJS as a software developer, and build cardboard prototypes as an industrial designer. Whatever the project demanded, our team ebbed and flowed as we navigated ambiguity.</p>
+          <p>Working in extremely rapid sprints spanning from 2 days to 7 weeks, I worked on interdisciplinary teams of 3 - 4. My teammates spanned from industrial and graphic designers, undergraduate students, MBAs, to even a rap producer. And my role in each project was just as multifaceted. I built brands and story telling animations as a graphic designer, prototyped in iOS and ReactJS as a software developer, and built cardboard prototypes as an industrial designer. Whatever the project demanded, our team ebbed and flowed as we navigated ambiguity.</p>
 
           <h2>The Work</h2>
-          <p>The prototypes we created we focused on proving feasibility (testing AI in Tensor Flow and iOS apps for IoT) , observing desirability (cardboard form factors used during user interviews), and even determining market viability (mathematic simulations to test new world market designs)</p>
+          <p>The prototypes we created were focused on proving feasibility (testing AI in Tensor Flow and iOS apps for IoT) , observing desirability (cardboard form factors used during user interviews), and even determining market viability (mathematic simulations to test new world market designs)</p>
           <p>To scroll to brief write-ups about each project, click the links below:</p>
 
           <div className="lists" style={{"width" : "100%"}}>
@@ -55,9 +55,9 @@ class DetailsCoLab extends Component {
    
           <div className="prototype" id="sparkfleet">
             <h2>SparkFleet</h2>
-            <p className="summary">[7 Week Sprint - Summer 2018]</p>
+            <p className="summary">[7 Week Sprint - Summer 2017]</p>
             <p className="summary">"How Might We use electric vehicles to arbitrage energy costs?"</p>
-            <p className="summary">Sparkfleet was a system utilizing bi-directional charging with public transit electric vehicles to arbitrage an entire city's energy: 
+            <p className="summary">SparkFleet was a system utilizing bi-directional charging with public transit electric vehicles to arbitrage an entire city's energy: 
               absorbing during energy surpluses and discharging back to the grid during high energy demand. 
               <br/>(🚌 + 🚎 + ... + 🚐) * ⚡️ = 🔋🌆</p>
             <div className="lists">
@@ -79,24 +79,24 @@ class DetailsCoLab extends Component {
             </div>
             <img className="hero" src={process.env.PUBLIC_URL + '/images/colab/sparkfleet/3surplusPortrait.gif'} />
             <h3>The Experience</h3>
-            <p>Through a 7 week build sprint, we started from this question, motivated 
-                  by Design Thinking to build prototypes to ask and answer questions, interviewed experts from the industries of utility and electric vehicle charging.
-                  In the end, we discovered a new business design using bi-directional chargers with public transit vehicles to store surplus solar energy and discharge 
+            <p>Through a 7 week build sprint, we started from our simple "How Might We", motivated 
+                  by Design Thinking to build prototypes to ask and answer questions, interviewing experts from the industries of utility and electric vehicle charging.
+                  In the end, we developed a new business design using bi-directional chargers with public transit vehicles to store surplus solar energy and discharge 
                   energy back to the grid during times of high demand.</p>
             <p>We bounced around the world of electric vehicles, testing viability in different markets, 
-              using mobile trackers and travel data to see if EVs truly would have surplus battery capacity, defining the necessary factors for this system to work.</p>
+              using mobile trackers and travel data to see if EVs truly would have extra battery space to utilize as an energy resevoir, interviewing EV owners to realize our target market, defining the necessary factors for this system to work.</p>
             <img src={process.env.PUBLIC_URL + '/images/colab/sparkfleet/notes.png'} />
             <p className="subtitle">The lots of writing and notes that pushed us forward</p>
 
             <h3>The Final Prototype</h3>
             <p>In order to test the feasibility of a city-wide electric battery, we created a mathematic simulation. 
-              <br/>Pulling routes from the San Francisco commute service <a href="https://www.chariot.com/" target="_blank">Chariot</a>, 
+              <br/>We pulled routes from the San Francisco commute service <a href="https://www.chariot.com/" target="_blank">Chariot</a>, 
               technical specifications from <a href="https://chargedevs.com/features/new-eagle-teams-up-with-inventev-to-offer-electric-ford-transit-vans/" target="_blank">New Eagle's electrified Ford Transit Van</a>,
               and projected solar power surpluses and energy demands for 2020.
             </p>
             <p>
-              The final form was the simulation displayed on a big screen. A narattor screen was displayed on an iPad, showing animations for different scenes 
-              that occur in the 24 hour life cycle of a Sparkfleet vehicle. The timelines are synced on both screens with Socket.io; both screens and simulation engine developed in ReactJS.
+              The final form was the simulation displayed on a big screen. A narrator screen was displayed on an iPad, showing animations for different scenes 
+              that occur in the 24 hour life cycle of a Sparkfleet vehicle. The timelines are synced on both screens with Socket.io; the entire application was developed myself with ReactJS.
             </p>
             <video preload="true" autoplay="true" loop>
               <source src={process.env.PUBLIC_URL + '/images/colab/sparkfleet/DemoSimulator.mp4'} type="video/mp4" />
@@ -113,7 +113,7 @@ class DetailsCoLab extends Component {
 
             <h3>Major Takeaways</h3>
             <p>
-              Coming from Florida, I had little experience in the EV market and a fluctuating energy market. 
+              Coming from Florida, I had little experience in the EV market or even a fluctuating energy market. 
               Our problem statement was characterized by its ambiguity, and although it brought some difficulties, 
               it allowed for an awesome amount of freedom for where we could go.
             </p>
@@ -121,15 +121,15 @@ class DetailsCoLab extends Component {
               Putting trust in the Design Thinking process ended for the better. Our team went through weeks of ambiguous solutions, 
               fearful that we weren't going to end with a single concise solution. And in the end, we didn't. 
               Rather, we had managed to gather enough information to discover new untapped potential in the energy market. 
-              Most importantly, our case was based in the viability and feasibility our simulation proved. 
-              We created a prototype to explain not a single concise product, but rather what the future could hold for electric vehicles. More than just a mode of transportation, but a solution to the scalability issues of energy industry of the future.
+              Most importantly, our new business design was backedby months of research, interviews, and our simulation. 
+              <br/>Our final prototype wasn't just a concise product that could be shipped the next day, but rather it conceptualized what the future could hold for electric vehicles: <br/>more than just a mode of transportation, but a solution to the scalability issues of energy industry of the future.
             </p>
             <p>For a beautifully-thorough document of our entire project process, <a href="http://raphaelhyde.com/port-casestudy-roe.html" target="_html">please check out the write-up created by my teammate, Raphael Hyde.</a></p>
           </div>
 
           <div className="prototype" id="tobi">
             <h2>Tobi</h2>
-            <p className="summary">[2 Week Sprint - Summer 2018]</p>
+            <p className="summary">[2 Weeks of Multi-Day Sprints - Summer 2017]</p>
             <p className="summary">"How Might We use artificial intelligence to reduce bias in the hiring process"</p>
             <p className="summary">Tobi was a collection of 3 applications to assist in different portions of the hiring process: the resume screening, the interview, and determining the final pool of candidates.</p>
             <div className="lists">
@@ -163,13 +163,14 @@ class DetailsCoLab extends Component {
             <h3>Prototype 3 : Candidate Assistant</h3>
             <p>With the practice of "Technology-Lead Design", we wanted to push the boundaries of Tobi to test where the edges of AI's benefit in the hiring process was.
               So, we gave Tobi full power. What would happen if Tobi could choose the final candidates?
-              <br/>We wanted real data, so we actually pulled from the IDEO CoLab Makeathon data (so our actual applications to IDEO CoLab) to see if Tobi would get it right. Whether it would choose the same candidates that IDEO chose.
-              Though we can disclose the results, we did find the limitations of AI in hiring, and defined guidelines when it came to designing this form of system.
+              <br/>We wanted real data, so we actually pulled from the IDEO CoLab Makeathon data (so our actual applications to IDEO CoLab) to see if Tobi would get it right.; whether it would choose the same candidates that IDEO chose.
+              <br/>Though we cannot disclose the results, we did gain insights on the limitations of AI in hiring, and from this, we defined new guidelines for designing this form of an AI system.
             </p>
             <div className="appScreens">
               <img src={process.env.PUBLIC_URL + '/images/colab/tobi/Tobi_Explanation-01.png'} />
               <img src={process.env.PUBLIC_URL + '/images/colab/tobi/Tobi_Explanation-03.png'} />
               <img src={process.env.PUBLIC_URL + '/images/colab/tobi/Tobi_Explanation-04.png'} />
+              <p className="subtitle">Posters I Illustrated to explain the Tobi system</p>
 
             </div>
           </div>
