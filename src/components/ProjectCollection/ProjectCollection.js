@@ -51,6 +51,8 @@ class ProjectCollection extends Component {
       rows.push(
         <div className="container" style={containerStyle} key={projectData.title}>
           <Project
+            type={projectData.type}
+            socials={projectData.socials}
             title={projectData.title}
             subtitle={projectData.subtitle}
             backgroundColor={projectData.color}

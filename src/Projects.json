@@ -1,18 +1,58 @@
 [
   {
+    "title" : "Graduation Sticker Pack!",
+    "subtitle" : "Made to Celebrate my Graduation from the University of Florida • Available on Etsy",
+    "color" : "#1d8a43",
+    "thumbnail" : "UFStickerPack.png",
+    "url" : "https://www.etsy.com/shop/TakashiWickes",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Bosnia Travel Book",
+    "subtitle" : "Illustrations from traveling across the Balkans in the summer of 2018",
+    "color" : "#f9c73d",
+    "thumbnail" : "TuzlaStamp.png",
+    "url" : "https://dribbble.com/takashiw/projects/714170-BosniaTravelBook",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Battling Pokemon in Multiplayer Augmented Reality",
+    "subtitle" : "Senior Project at the University of Florida",
+    "color" : "#f49028",
+    "thumbnail" : "ARPokemonStyleBright@2x.png",
+    "url" : "/ARPokemon",
+    "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Volunteering Design and Video Work with Project SEARCH",
+    "subtitle" : "Duval County Public Schools",
+    "color" : "#5cc5e8",
+    "thumbnail" : "projectsearchbrochure.png",
+    "url" : "/ProjectSEARCH",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "An Ode to the Bezier Curve",
+    "subtitle" : "Capstone Essay for ARH4930: Lowbrow Art History",
+    "color" : "#9be869",
+    "thumbnail" : "BezierCrooked@2x.png",
+    "url" : "https://blog.prototypr.io/an-ode-to-the-bezier-curve-3eb9eca038ff",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "title" : "Developing a Construction Safety Training App utilizing 360 Photography",
+    "subtitle" : "HCTC Lab at the University of Florida",
+    "color" : "#00529b",
+    "thumbnail" : "PARS.png",
+    "url" : "/pars",
+    "columns" : 2, "rows" : 1
+  },
+  {
     "title" : "Animating a Pizza & Winning an Oven",
     "subtitle" : "Sticker Mule Dribbble Playoff Grand Prize",
     "color" : "#348E43",
     "thumbnail" : "Pizza.png",
     "url" : "/pizza",
-    "columns" : 1, "rows" : 1
-  },
-  {
-    "title" : "Developing Accessible Field Trips with Google Cardboard",
-    "subtitle" : "VR for Social Good Term Project",
-    "color" : "#2EAAF3",
-    "thumbnail" : "GreenCardboard.png",
-    "url" : "https://rikardoeiris.wixsite.com/vrsgglobalsites",
     "columns" : 1, "rows" : 1
   },
   {
@@ -22,6 +62,14 @@
     "thumbnail" : "swipemoji.png",
     "url" : "/swipemoji",
     "columns" : 1, "rows" : 2
+  },
+  {
+    "title" : "Developing Accessible Field Trips with Google Cardboard",
+    "subtitle" : "VR for Social Good Term Project",
+    "color" : "#2EAAF3",
+    "thumbnail" : "GreenCardboard.png",
+    "url" : "https://rikardoeiris.wixsite.com/vrsgglobalsites",
+    "columns" : 1, "rows" : 1
   },
   {
     "title" : "Animating a Tomato",
@@ -37,6 +85,41 @@
     "color" : "#FF715A",
     "thumbnail" : "CSSFace.png",
     "url" : "https://blog.prototypr.io/how-to-draw-your-face-in-css-89676e71236a",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "type" : "social",
+    "socials" : 
+      [
+        {
+          "icon": "dribbble-icon.svg",
+          "url": "https://dribbble.com/takashiw",
+          "color": "#c32261",
+          "backgroundColor": "#ea4c8a",
+          "title": "visit dribbble @takashiw"
+        },
+        {
+          "icon": "Octicons-mark-github.svg",
+          "url": "https://github.com/takashiw",
+          "color": "#6cc644",
+          "backgroundColor": "#333",
+          "title": "visit github @takashiw"
+        },
+        {
+          "icon": "twitter-icon.svg",
+          "url": "https://twitter.com/takashiwickes",
+          "color": "#009fec",
+          "backgroundColor": "#59ddff",
+          "title": "visit twitter"
+        },
+        {
+          "icon": "instagram-icon.svg",
+          "url": "https://www.instagram.com/takashiwickes/",
+          "color": "#e42b6b",
+          "backgroundColor": "#f85f38",
+          "title": "checkout instagramv"
+        }
+      ],
     "columns" : 1, "rows" : 1
   },
   {
@@ -85,6 +168,41 @@
     "color" : "#88BEFF",
     "thumbnail" : "Medidock.png",
     "url" : "/medidock",
+    "columns" : 1, "rows" : 1
+  },
+  {
+    "type" : "social",
+    "socials" : 
+      [
+        {
+          "icon": "LinkedIn_font_awesome.svg",
+          "url": "https://www.linkedin.com/in/takashiw/",
+          "color": "#283e4a",
+          "backgroundColor": "#0077b5",
+          "title": "visit linkedin @takashiw"
+        },
+        {
+          "icon": "behance.svg",
+          "url": "http://be.net/takashiw",
+          "color": "#68a4fc",
+          "backgroundColor": "#1769ff",
+          "title": "visit behance"
+        },
+        {
+          "icon": "youtube.svg",
+          "url": "https://twitter.com/takashiwickes",
+          "color": "#c1241f",
+          "backgroundColor": "#ff0000",
+          "title": "visit youtube"
+        },
+        {
+          "icon": "resume.svg",
+          "url": "http://takashiwickes.com/resume.pdf",
+          "color": "#c8c8c8",
+          "backgroundColor": "#51C0FF",
+          "title": "review my formal resume"
+        }
+      ],
     "columns" : 1, "rows" : 1
   },
   {

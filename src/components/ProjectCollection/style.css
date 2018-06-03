@@ -1,6 +1,7 @@
 .projectContainer {
   display: inline-block;
   margin-bottom: 100px;
+  width: 100%;
 }
 
 .container {

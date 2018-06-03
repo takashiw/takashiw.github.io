@@ -12,6 +12,9 @@ import ProjectFloatie from './components/ProjectDetailPage/project-Floatie'
 import ProjectCodePath from './components/ProjectDetailPage/project-CodePath'
 import ProjectPizza from './components/ProjectDetailPage/project-Pizza'
 import ProjectTunaPasta from './components/ProjectDetailPage/project-TunaPasta'
+import ProjectPARS from './components/ProjectDetailPage/project-PARS'
+import ProjectARPokemon from './components/ProjectDetailPage/project-ARPokemon'
+import ProjectProjectSEARCH from './components/ProjectDetailPage/project-ProjectSEARCH'
 
 import './index.css'
 
@@ -50,6 +53,9 @@ class App extends Component {
           <Route path='/floatie' component={ProjectFloatie}/>
           <Route path='/pizza' component={ProjectPizza}/>
           <Route path='/tunapasta' component={ProjectTunaPasta}/>
+          <Route path='/pars' component={ProjectPARS}/>
+          <Route path='/ARPokemon' component={ProjectARPokemon}/>
+          <Route path='/ProjectSEARCH' component={ProjectProjectSEARCH}/>
         </Switch>
       </div>
     )

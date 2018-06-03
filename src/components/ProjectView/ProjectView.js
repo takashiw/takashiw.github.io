@@ -26,6 +26,53 @@ class Link extends React.Component {
 
 class ProjectView extends Component {
   render() {
+    // console.log("Hello " + this.props.type);
+    console.log("Hello " + this.props.socials);
+    if(this.props.type == "social") {
+      return(
+        <div className="socialGroupContainer" style={this.props.style}>
+          <Link to={this.props.socials[0].url}>
+          <div className="socialContainer">
+            <div className="social" style={{margin: "0 5px 5px 0", backgroundColor: this.props.socials[0].backgroundColor}}>
+              <img src={process.env.PUBLIC_URL + '/images/' + this.props.socials[0].icon} />
+              <div className="titleContainer" style={{backgroundColor: this.props.socials[0].color}}>
+                <h1 className="title">{this.props.socials[0].title}</h1>
+              </div>
+            </div>
+          </div>
+          </Link>
+          <Link to={this.props.socials[1].url}>
+          <div className="socialContainer">
+            <div className="social" style={{margin: "0 0 5px 5px", backgroundColor: this.props.socials[1].backgroundColor}}>
+              <img src={process.env.PUBLIC_URL + '/images/' + this.props.socials[1].icon} />
+              <div className="titleContainer" style={{backgroundColor: this.props.socials[1].color}}>
+                <h1 className="title">{this.props.socials[1].title}</h1>
+              </div>
+            </div>
+          </div>
+          </Link>
+          <Link to={this.props.socials[2].url}>
+          <div className="socialContainer">
+            <div className="social" style={{margin: "5px 5px 0 0", backgroundColor: this.props.socials[2].backgroundColor}}>
+              <img src={process.env.PUBLIC_URL + '/images/' + this.props.socials[2].icon} />
+              <div className="titleContainer" style={{backgroundColor: this.props.socials[2].color}}>
+                <h1 className="title">{this.props.socials[2].title}</h1>
+              </div>
+            </div>
+          </div>
+          </Link>
+          <Link to={this.props.socials[3].url}>
+          <div className="socialContainer">
+            <div className="social" style={{margin: "5px 0 0 5px", backgroundColor: this.props.socials[3].backgroundColor}}>
+              <img src={process.env.PUBLIC_URL + '/images/' + this.props.socials[3].icon} />
+              <div className="titleContainer" style={{backgroundColor: this.props.socials[3].color}}>
+                <h1 className="title">{this.props.socials[3].title}</h1>
+              </div>
+            </div>
+          </div>
+          </Link>
+        </div> )
+    }
 
     return(
       <Link to={this.props.link}>
@@ -37,6 +84,33 @@ class ProjectView extends Component {
           </div>
         </div>
       </Link>
+    )
+  }
+}
+
+class SocialView extends Component {
+  render() {
+
+    return(
+        <div className="socialGroupContainer" style={this.props.style}>
+          <div className="socialContainer">
+            <div className="social"></div>
+            {/* <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/' + this.props.image} alt={this.props.title}/> */}
+          </div>
+          <div className="socialContainer">
+            <div className="social"></div>
+            {/* <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/' + this.props.image} alt={this.props.title}/> */}
+          </div>
+          <div className="socialContainer">
+            <div className="social"></div>
+            {/* <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/' + this.props.image} alt={this.props.title}/> */}
+          </div>
+          <div className="socialContainer">
+            <div className="social"></div>
+            {/* <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/' + this.props.image} alt={this.props.title}/> */}
+          </div>
+          
+        </div>
     )
   }
 }
